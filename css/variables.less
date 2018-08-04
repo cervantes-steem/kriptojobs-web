@@ -1,0 +1,267 @@
+/* Colores 
+*
+**
+***
+****
+*****
+******
+*******
+*/ 
+
+@azul-principal:#003366;
+@gris-principal:#999999;
+@gris-oscuro-principal:#242424;
+@verde-azul-principal:#34a39b;
+@verder-principal:#009999;
+@morado-principal: #9999cc;
+@blanco:#fff;
+@negro:#000;
+@gris-footer:#1c2733;
+@gris-texto-footer: #96a4b3;
+
+.azul{
+	background: @azul-principal;
+
+}
+.texto-azul{
+	color: @azul-principal;
+}
+
+.gris{
+	background: gris-principal;
+}
+.texto-gris{
+	color: @gris-principal;
+}
+
+.gris-oscuro{
+	background: gris-oscuro-principal;
+}
+.texto-gris-oscuro{
+	color: @gris-oscuro-principal;
+}
+
+.azul-verde{
+	background: @verde-azul-principal;
+}
+.texto-azul-verde{
+	color: @verde-azul-principal;
+}
+
+.verde{
+	background: @verder-principal;
+}
+.texto-verde{
+	color: @verder-principal;
+}
+.morado{
+	background:@morado-principal;
+}
+.texto-morado{
+	color: @morado-principal;
+}
+.blanco {
+	background: @blanco;
+}
+.texto-blanco{
+	color:@blanco;
+}
+.negro {
+	background: @negro;
+}
+.texto-negro{
+	color:@negro;
+}
+
+.btn-verde{
+	background: rgba(52,163,156,1);
+	background: -moz-linear-gradient(15deg, rgba(52,163,156,1) 0%, rgba(52,163,156,1) 49%, rgba(0,153,153,1) 50%, rgba(0,153,153,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(52,163,156,1)), color-stop(49%, rgba(52,163,156,1)), color-stop(50%, rgba(0,153,153,1)), color-stop(100%, rgba(0,153,153,1)));
+	background: -webkit-linear-gradient(15deg, rgba(52,163,156,1) 0%, rgba(52,163,156,1) 49%, rgba(0,153,153,1) 50%, rgba(0,153,153,1) 100%);
+	background: -o-linear-gradient(15deg, rgba(52,163,156,1) 0%, rgba(52,163,156,1) 49%, rgba(0,153,153,1) 50%, rgba(0,153,153,1) 100%);
+	background: -ms-linear-gradient(15deg, rgba(52,163,156,1) 0%, rgba(52,163,156,1) 49%, rgba(0,153,153,1) 50%, rgba(0,153,153,1) 100%);
+	background: linear-gradient(15deg, rgba(52,163,156,1) 0%, rgba(52,163,156,1) 49%, rgba(0,153,153,1) 50%, rgba(0,153,153,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34a39c', endColorstr='#009999', GradientType=1 );
+	 border: none;
+	color: @blanco;
+	&:hover{
+		background: rgba(0,153,153,1);
+		background: -moz-linear-gradient(15deg, rgba(0,153,153,1) 0%, rgba(0,153,153,1) 50%, rgba(52,163,156,1) 51%, rgba(52,163,156,1) 100%);
+		background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,153,153,1)), color-stop(50%, rgba(0,153,153,1)), color-stop(51%, rgba(52,163,156,1)), color-stop(100%, rgba(52,163,156,1)));
+		background: -webkit-linear-gradient(15deg, rgba(0,153,153,1) 0%, rgba(0,153,153,1) 50%, rgba(52,163,156,1) 51%, rgba(52,163,156,1) 100%);
+		background: -o-linear-gradient(15deg, rgba(0,153,153,1) 0%, rgba(0,153,153,1) 50%, rgba(52,163,156,1) 51%, rgba(52,163,156,1) 100%);
+		background: -ms-linear-gradient(15deg, rgba(0,153,153,1) 0%, rgba(0,153,153,1) 50%, rgba(52,163,156,1) 51%, rgba(52,163,156,1) 100%);
+		background: linear-gradient(15deg, rgba(0,153,153,1) 0%, rgba(0,153,153,1) 50%, rgba(52,163,156,1) 51%, rgba(52,163,156,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#34a39c', GradientType=1 );
+		  color: @blanco;
+
+
+	}
+}
+
+/*Ranking*/
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: 'Font Awesome 5 Free';
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+a{
+	color:@azul-principal;
+	text-decoration: none !important;
+	transition: 0.3s;
+	&:hover{
+		color:@verder-principal;
+		text-decoration: none;
+
+
+
+	}
+
+}
+
+/* Separadores 
+*
+**
+***
+****
+*****
+******
+*******
+*/
+
+.separador-left{
+	margin-top: -10px;
+	border-left: 1px solid rgba(7, 177, 7,0.4);
+	padding: 4px 12px;
+
+}
+
+/* Ajustes de posicionamiento de contenido
+*
+**
+***
+****
+*****
+******
+*******
+*/ 
+.parent {
+	position: relative;
+}
+.child {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.child-vertical {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* Sombras
+*
+**
+***
+****
+*****
+******
+*******
+*/ 
+
+.card-1 {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+/* Sombras
+*
+**
+***
+****
+*****
+******
+*******
+*/ 
+.popular{
+	text-align: center;
+	background-color: #fdb13a;
+	color: white;
+	z-index: 10;
+	position: absolute;
+	left: 10px;
+	top: 15%;
+	padding: 5px;
+	.card-1;
+	p{
+		margin: 0px;
+	}
+}
+
+.popular2{
+	text-align: center;
+	background-color:#484848;
+	color: white;
+	z-index:9;
+	position: absolute;
+	left: 10px;
+	top: 15%;
+	width: 5px; 
+	margin-top: 20px;
+	height: 20px;
+	transform: skewY(60deg);
+}
