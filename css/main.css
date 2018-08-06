@@ -11166,3 +11166,39 @@ footer .footer-social li a i:hover {
   font-size: 16px;
   color: #707c88;
 }
+#resumen-candidato {
+  margin-top: 32px;
+}
+#resumen-candidato .row.section {
+  font-size: 18px;
+  background: #f5f6f7;
+  padding: 8px 20px;
+  margin-bottom: 16px;
+  line-height: 1.6;
+  border-radius: 2px;
+  color: #35434e;
+  border-left: 3px solid #34a39b;
+}
+#resumen-candidato ul {
+  list-style: none;
+  padding: 0px;
+}
+#resumen-candidato ul li {
+  margin-bottom: 15px;
+}
+#resumen-candidato li:before {
+  content: "\f00c";
+  position: relative;
+  font-size: 17px;
+  color: #9999cc;
+  left: -5px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+#resumen-candidato .descripcion-resumen {
+  color: grey;
+  margin-bottom: 20px;
+  line-height: 1.9;
+  font-size: 15px;
+  padding: 0 20px;
+}

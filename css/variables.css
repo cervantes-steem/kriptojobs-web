@@ -1,1 +1,227 @@
-/* Colores */
+/* Colores 
+*
+**
+***
+****
+*****
+******
+*******
+*/
+.azul {
+  background: #003366;
+}
+.texto-azul {
+  color: #003366;
+}
+.gris {
+  background: gris-principal;
+}
+.texto-gris {
+  color: #999999;
+}
+.gris-oscuro {
+  background: gris-oscuro-principal;
+}
+.texto-gris-oscuro {
+  color: #242424;
+}
+.azul-verde {
+  background: #34a39b;
+}
+.texto-azul-verde {
+  color: #34a39b;
+}
+.verde {
+  background: #009999;
+}
+.texto-verde {
+  color: #009999;
+}
+.morado {
+  background: #9999cc;
+}
+.texto-morado {
+  color: #9999cc;
+}
+.blanco {
+  background: #ffffff;
+}
+.texto-blanco {
+  color: #ffffff;
+}
+.negro {
+  background: #000000;
+}
+.texto-negro {
+  color: #000000;
+}
+.btn-verde {
+  background: #34a39c;
+  background: -moz-linear-gradient(15deg, #34a39c 0%, #34a39c 49%, #009999 50%, #009999 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #34a39c), color-stop(49%, #34a39c), color-stop(50%, #009999), color-stop(100%, #009999));
+  background: -webkit-linear-gradient(15deg, #34a39c 0%, #34a39c 49%, #009999 50%, #009999 100%);
+  background: -o-linear-gradient(15deg, #34a39c 0%, #34a39c 49%, #009999 50%, #009999 100%);
+  background: -ms-linear-gradient(15deg, #34a39c 0%, #34a39c 49%, #009999 50%, #009999 100%);
+  background: linear-gradient(15deg, #34a39c 0%, #34a39c 49%, #009999 50%, #009999 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#34a39c', endColorstr='#009999', GradientType=1);
+  border: none;
+  color: #ffffff;
+}
+.btn-verde:hover {
+  background: #009999;
+  background: -moz-linear-gradient(15deg, #009999 0%, #009999 50%, #34a39c 51%, #34a39c 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #009999), color-stop(50%, #009999), color-stop(51%, #34a39c), color-stop(100%, #34a39c));
+  background: -webkit-linear-gradient(15deg, #009999 0%, #009999 50%, #34a39c 51%, #34a39c 100%);
+  background: -o-linear-gradient(15deg, #009999 0%, #009999 50%, #34a39c 51%, #34a39c 100%);
+  background: -ms-linear-gradient(15deg, #009999 0%, #009999 50%, #34a39c 51%, #34a39c 100%);
+  background: linear-gradient(15deg, #009999 0%, #009999 50%, #34a39c 51%, #34a39c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009999', endColorstr='#34a39c', GradientType=1);
+  color: #ffffff;
+}
+/*Ranking*/
+.rating {
+  border: none;
+  float: left;
+}
+.rating > input {
+  display: none;
+}
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: 'Font Awesome 5 Free';
+  display: inline-block;
+  content: "\f005";
+}
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+.rating > label {
+  color: #ddd;
+  float: right;
+}
+/***** CSS Magic to Highlight Stars on Hover *****/
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #FFD700;
+}
+/* hover previous stars in list */
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: #FFED85;
+}
+a {
+  color: #003366;
+  text-decoration: none !important;
+  transition: 0.3s;
+}
+a:hover {
+  color: #009999;
+  text-decoration: none;
+}
+/* Separadores 
+*
+**
+***
+****
+*****
+******
+*******
+*/
+.separador-left {
+  margin-top: -10px;
+  border-left: 1px solid rgba(7, 177, 7, 0.4);
+  padding: 4px 12px;
+}
+/* Ajustes de posicionamiento de contenido
+*
+**
+***
+****
+*****
+******
+*******
+*/
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.child-vertical {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Sombras
+*
+**
+***
+****
+*****
+******
+*******
+*/
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+/* Sombras
+*
+**
+***
+****
+*****
+******
+*******
+*/
+.popular {
+  text-align: center;
+  background-color: #fdb13a;
+  color: white;
+  z-index: 10;
+  position: absolute;
+  left: 10px;
+  top: 15%;
+  padding: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.popular p {
+  margin: 0px;
+}
+.popular2 {
+  text-align: center;
+  background-color: #484848;
+  color: white;
+  z-index: 9;
+  position: absolute;
+  left: 10px;
+  top: 15%;
+  width: 5px;
+  margin-top: 20px;
+  height: 20px;
+  transform: skewY(60deg);
+}
