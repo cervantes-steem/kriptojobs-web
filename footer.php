@@ -76,7 +76,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-datepicker.min.js" type="text/javascript" charset="utf-8" async defer></script>
-
+<script src="js/advanced.js"></script>
+<script src="js/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="js/bootstrap3-wysihtml5.js"></script>
 <script src="slick/slick.js" type="text/javascript" charset="utf-8" async defer></script>
 <script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
 

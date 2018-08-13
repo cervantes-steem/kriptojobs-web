@@ -36,3 +36,8 @@ $('#sandbox-container .time.date').datepicker({
 });
 
 
+var editor = new wysihtml5.Editor("some-textarea", { // id of textarea element
+  toolbar:      "wysihtml5-toolbar", // id of toolbar element
+  parserRules:  wysihtmlParserRules // defined in parser rules set 
+});
+
