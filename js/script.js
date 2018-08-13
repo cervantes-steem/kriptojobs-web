@@ -43,14 +43,6 @@ var editor = new wysihtml5.Editor("some-textarea", { // id of textarea element
 
 
 
-$('#rangofechasestudio .time-daterange').datepicker({
-    startView: 2,
-    minViewMode: 1,
-    clearBtn: true,
-    language: "es",
-    autoclose: true,
-    toggleActive: true
-});
 
 
 /* Elementos que clonan el html */
@@ -63,6 +55,15 @@ $('.wrapper').on('click', '.clone', function() {
 var editor = new wysihtml5.Editor("some-textarea2", { // id of textarea element
   toolbar:      "wysihtml5-toolbar2", // id of toolbar element
   parserRules:  wysihtmlParserRules // defined in parser rules set 
+});
+
+$('#rangofechasestudio .time-daterange').datepicker({
+    startView: 2,
+    minViewMode: 1,
+    clearBtn: true,
+    language: "es",
+    autoclose: true,
+    toggleActive: true
 });
 
 
