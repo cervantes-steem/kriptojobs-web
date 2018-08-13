@@ -289,17 +289,16 @@
 					<form class=" form-horizontal">
 						<div class="form-group"> 
 							<div class="col-md-12 margin-botton">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fab fa-facebook-f"></i></span>
+								
+									
 									<input id="nombre-instituto" type="text" class="form-control" name="nombre-instituto" placeholder="Nombre de la escuela, por ejemplo: Universidad Central de Venezuela">  <!-- Este Id debe ser unico --> 
-								</div>
+								
 							</div>
 
 							<div class="col-md-12 margin-botton">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fab fa-twitter"></i></span>  <!-- Este Id debe ser unico --> 
+								<!-- Este Id debe ser unico --> 
 									<input id="titulo" type="text" class="form-control" name="titulo" placeholder="Calificación, por ejemplo, Lic. en Ciencias de la computación">
-								</div>
+								
 							</div>
 
 							<div class="col-md-12" id="rangofechasestudio">  <!-- Este Id debe ser unico --> 
