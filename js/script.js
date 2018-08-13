@@ -24,4 +24,15 @@ $('.center-slick').slick({
     }
   ]
 });
-			
+
+$('#sandbox-container .time.date').datepicker({
+    startView: 2,
+    language: "es",
+    multidate: false,
+    calendarWeeks: true,
+    autoclose: true,
+    todayHighlight: true,
+    
+});
+
+

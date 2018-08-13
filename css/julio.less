@@ -619,18 +619,23 @@ footer{
 	}
 }
 
+
 #resumen-candidato{
 	
 	margin-top: 32px;
 	.row.section{
 		font-size: 18px;
-    background: #f5f6f7;
-    padding: 8px 20px;
-    margin-bottom: 16px;
-    line-height: 1.6;
-    border-radius: 2px;
-    color: #35434e;
+		background: #f5f6f7;
+		padding: 8px 20px;
+		margin-top: 16px;
+		margin-bottom: 16px;
+		line-height: 1;
+		border-radius: 2px;
+		color: #35434e;
 		border-left: 3px solid @verde-azul-principal;
+	}
+	h3{
+		margin: 0px;
 	}
 	.titulo-resumen{
 		
@@ -646,23 +651,101 @@ footer{
 	}
 
 	li:before{
-		    content: "\f00c";
-    position: relative;
-    font-size: 17px;
-    color: @morado-principal;
-    left: -5px;
-       font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
+		content: "\f00c";
+		position: relative;
+		font-size: 17px;
+		color: @morado-principal;
+		left: -5px;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
 
 
 	}
 
 	.descripcion-resumen{
 		color: grey;
-	margin-bottom: 20px;
-    line-height: 1.9;
-    font-size: 15px;
-    padding: 0 20px;
+		margin-bottom: 20px;
+		line-height: 1.9;
+		font-size: 15px;
+		padding: 0 20px;
 	}
 	
+}
+
+/* Cargar perfil
+*
+**
+***
+****
+*****
+******
+*******
+*/
+.js{
+	.inputfile{
+		width: .1px;
+		height: .1px;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		z-index: -1;
+	}
+}
+.inputfile+label {
+	width: 120px;
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	padding: .625rem 1.25rem;
+	height: 120px;
+	background: @verde-azul-principal;
+	border-radius: 50%;
+	i {
+		line-height: 100px;
+		text-align: center;
+		font-size: 55px;
+		color: #fff;
+		display: block;
+		background: 0 0;
+		border-radius: 50%;
+	}
+}
+.add-feild{
+	.input-group-addon{
+		background:@morado-principal;
+		i{
+		line-height: 30px;
+		text-align: center;
+		font-size: 16px;
+		color: #fff;
+		    width: 25px;
+		background: 0 0;
+		border-radius: 50%;	
+		}
+	}
+	.form-control{
+		    height: 52px;
+    width: 100%;
+    color: #707c88;
+    border-radius: 2px;
+    box-shadow: none;
+    border: 1px solid #ccddea;
+	}
+	 .text-area{
+		    height: 150px !important;
+  
+	}
+}
+
+.input-group2 {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.datepicker-dropdown.dropdown-menu{
+	    margin: 85px 0 0 !important;
 }
