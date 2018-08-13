@@ -41,3 +41,29 @@ var editor = new wysihtml5.Editor("some-textarea", { // id of textarea element
   parserRules:  wysihtmlParserRules // defined in parser rules set 
 });
 
+
+
+$('#rangofechasestudio .time-daterange').datepicker({
+    startView: 2,
+    minViewMode: 1,
+    clearBtn: true,
+    language: "es",
+    autoclose: true,
+    toggleActive: true
+});
+
+
+/* Elementos que clonan el html */
+$('.wrapper').on('click', '.remove', function() {
+  $('.remove').closest('.wrapper').find('.element').not(':first').last().remove();
+});
+$('.wrapper').on('click', '.clone', function() {
+  $('.clone').closest('.wrapper').find('.element').first().clone().appendTo('.results');
+});
+var editor = new wysihtml5.Editor("some-textarea2", { // id of textarea element
+  toolbar:      "wysihtml5-toolbar2", // id of toolbar element
+  parserRules:  wysihtmlParserRules // defined in parser rules set 
+});
+
+
+/* Fin Elementos que se deben clonar */

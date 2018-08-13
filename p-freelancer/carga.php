@@ -205,158 +205,193 @@
 						<div id="wysihtml5-toolbar" style="display: none;">
 
 							<ul class="wysihtml5-toolbar" style="">
-							<li class="dropdown">
-								<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-font"></i>&nbsp;<span class="current-font">Normal text</span>&nbsp;<b class="caret"></b>
-								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="div" >Normal text</a>
-									</li>
-									<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" >Heading 1</a>
-									</li>
-									<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" >Heading 2</a>
-									</li>
-									<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" >Heading 3</a>
-									</li>
-									<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" >Heading 4</a>
-									</li>
-									<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" >Heading 5</a>
-									</li>
-									<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" >Heading 6</a>
-									</li>
-								</ul>
+								<li class="dropdown">
+									<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-font"></i>&nbsp;<span class="current-font">Normal text</span>&nbsp;<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="div" >Normal text</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" >Heading 1</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" >Heading 2</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" >Heading 3</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" >Heading 4</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" >Heading 5</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" >Heading 6</a>
+										</li>
+									</ul>
 								</li>
 
 
 								<li>
-								<div class="btn-group">
-									<a class="btn  btn-default" data-wysihtml5-command="bold" title="CTRL+B"  > Bold</a>
-									<a class="btn  btn-default" data-wysihtml5-command="italic" title="CTRL+I" " >Italic</a>
-									<a class="btn  btn-default" style="text-decoration: underline;" data-wysihtml5-command="underline" title="CTRL+U"  > Underline</a>
+									<div class="btn-group">
+										<a class="btn  btn-default" data-wysihtml5-command="bold" title="CTRL+B"  > Bold</a>
+										<a class="btn  btn-default" data-wysihtml5-command="italic" title="CTRL+I" " >Italic</a>
+										<a class="btn  btn-default" style="text-decoration: underline;" data-wysihtml5-command="underline" title="CTRL+U"  > Underline</a>
 
-								</div>
-							</li>
-							<li>
-								<a class="btn  btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="blockquote" data-wysihtml5-display-format-name="false" >
+									</div>
+								</li>
+								<li>
+									<a class="btn  btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="blockquote" data-wysihtml5-display-format-name="false" >
 
-									<span class="fa fa-quote-left"></span>
-
-								</a>
-							</li>
-							<li>
-								<div class="btn-group">
-									<a class="btn  btn-default" data-wysihtml5-command="insertUnorderedList" title=""  >
-
-										<span class="fa fa-list-ul"></span>
+										<span class="fa fa-quote-left"></span>
 
 									</a>
-									<a class="btn  btn-default" data-wysihtml5-command="insertOrderedList" title="" >
+								</li>
+								<li>
+									<div class="btn-group">
+										<a class="btn  btn-default" data-wysihtml5-command="insertUnorderedList" title=""  >
 
-										<span class="fa fa-list-ol"></span>
+											<span class="fa fa-list-ul"></span>
 
-									</a>
-									<a class="btn  btn-default" data-wysihtml5-command="Outdent" title=""  >
+										</a>
+										<a class="btn  btn-default" data-wysihtml5-command="insertOrderedList" title="" >
 
-										<span class="fa fa-outdent"></span>
+											<span class="fa fa-list-ol"></span>
 
-									</a>
-									<a class="btn  btn-default" data-wysihtml5-command="Indent" title=""  >
+										</a>
+										<a class="btn  btn-default" data-wysihtml5-command="Outdent" title=""  >
 
-										<span class="fa fa-indent"></span>
+											<span class="fa fa-outdent"></span>
 
-									</a>
-								</div>
-							</li>
-						</ul>
-					</div>
+										</a>
+										<a class="btn  btn-default" data-wysihtml5-command="Indent" title=""  >
 
-					
+											<span class="fa fa-indent"></span>
 
-
-
-					<textarea id="some-textarea" class="form-control k-textbox text-area"  placeholder="Enter text ..." style="styles to copy to the iframe"></textarea>
-
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="container">
-			<div class="row section">
-				<div class="col-md-12 titulo-resumen">
-					<h3>Resume Content</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 descripcion-resumen">
-					<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, maiores excepturi sint placeat veniam dolores eum tempora cum soluta amet, vitae nihil tenetur, cumque at accusamus id quod magnam aut.</span><span>Placeat alias voluptate dolores, totam maxime. Sit odio molestias blanditiis eum iure architecto eaque maiores, totam quae sequi, aperiam repellat obcaecati soluta adipisci quisquam rerum quidem, deleniti illum nesciunt! Repudiandae.</span></p>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
+										</a>
+									</div>
+								</li>
+							</ul>
 						</div>
-					</div>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-xs-6 col-lg-4">
-						<span> Desarrollo web</span>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								40%
-							</div>
-						</div>
+
+						<textarea id="some-textarea" class="form-control k-textbox text-area"  placeholder="Enter text ..." style="styles to copy to the iframe"></textarea>
+
 					</div>
 				</div>
 			</div>
 		</div>
+		
+		<div class="row wrapper">
+			<div class="container">
+				<div class="row section">
+					<div class="col-md-12 titulo-resumen">
+						<h3>Agregar Educación</h3>
+					</div>
+				</div>
+				
+				<div class="row element margin-botton"> <!-- Elemento que se clona --> 
+					<form class=" form-horizontal">
+						<div class="form-group"> 
+							<div class="col-md-12 margin-botton">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fab fa-facebook-f"></i></span>
+									<input id="nombre-instituto" type="text" class="form-control" name="nombre-instituto" placeholder="Nombre de la escuela, por ejemplo: Universidad Central de Venezuela">  <!-- Este Id debe ser unico --> 
+								</div>
+							</div>
+
+							<div class="col-md-12 margin-botton">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fab fa-twitter"></i></span>  <!-- Este Id debe ser unico --> 
+									<input id="titulo" type="text" class="form-control" name="titulo" placeholder="Calificación, por ejemplo, Lic. en Ciencias de la computación">
+								</div>
+							</div>
+
+							<div class="col-md-12" id="rangofechasestudio">  <!-- Este Id debe ser unico --> 
+								<div class="input-daterange input-group time-daterange" id="datepicker">
+									<input type="text" class="input-sm form-control" name="start" />
+									<span class="input-group-addon">to</span>
+									<input type="text" class="input-sm form-control" name="end" />
+								</div>
+							</div>
+						</div>
+
+						<div id="wysihtml5-toolbar2" style="display: none;"> <!-- Este Id debe ser unico --> 
+
+							<ul class="wysihtml5-toolbar" style="">
+								<li class="dropdown">
+									<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-font"></i>&nbsp;<span class="current-font">Normal text</span>&nbsp;<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="div" >Normal text</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" >Heading 1</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" >Heading 2</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" >Heading 3</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" >Heading 4</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" >Heading 5</a>
+										</li>
+										<li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" >Heading 6</a>
+										</li>
+									</ul>
+								</li>
+
+
+								<li>
+									<div class="btn-group">
+										<a class="btn  btn-default" data-wysihtml5-command="bold" title="CTRL+B"  > Bold</a>
+										<a class="btn  btn-default" data-wysihtml5-command="italic" title="CTRL+I" " >Italic</a>
+										<a class="btn  btn-default" style="text-decoration: underline;" data-wysihtml5-command="underline" title="CTRL+U"  > Underline</a>
+
+									</div>
+								</li>
+								<li>
+									<a class="btn  btn-default" data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="blockquote" data-wysihtml5-display-format-name="false" >
+
+										<span class="fa fa-quote-left"></span>
+
+									</a>
+								</li>
+								<li>
+									<div class="btn-group">
+										<a class="btn  btn-default" data-wysihtml5-command="insertUnorderedList" title=""  >
+
+											<span class="fa fa-list-ul"></span>
+
+										</a>
+										<a class="btn  btn-default" data-wysihtml5-command="insertOrderedList" title="" >
+
+											<span class="fa fa-list-ol"></span>
+
+										</a>
+										<a class="btn  btn-default" data-wysihtml5-command="Outdent" title=""  >
+
+											<span class="fa fa-outdent"></span>
+
+										</a>
+										<a class="btn  btn-default" data-wysihtml5-command="Indent" title=""  >
+
+											<span class="fa fa-indent"></span>
+
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<textarea id="some-textarea2" class="form-control k-textbox text-area"  placeholder="Enter text ..." ></textarea>  <!-- Este Id debe ser unico --> 
+					</form>
+
+				</div> <!-- Fin elemento que se clona --> 
+				<div class="results"></div> <!-- Aqui se muestra el elemento clonado--> 
+				<div class="buttons col-md-12">
+					<button class="clone pull-left btn btn-success">clone</button>
+					<button class="remove pull-right btn btn-danger">remove</button>
+				</div>
+
+				
+			</div>
+		</div>
+		
 	</div>
 </section>
