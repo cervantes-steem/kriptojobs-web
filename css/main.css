@@ -10487,6 +10487,10 @@ ul.wysihtml5-toolbar::after {
 ******
 *******
 */
+.error-page,
+article {
+  position: relative;
+}
 .azul {
   background: #003366;
 }
@@ -11412,4 +11416,69 @@ footer .footer-social li a i:hover {
   line-height: 1.9;
   font-size: 15px;
   padding: 0 20px;
+}
+/*Buscador de Empresas*/
+#buscador-empresas {
+  margin-top: 50px;
+}
+.brows-company,
+.brows-resume {
+  padding: 15px;
+  background: #fff;
+  overflow: hidden;
+  transition: all ease-in-out 0.4s;
+}
+.brows-company {
+  border-radius: 4px;
+  margin-bottom: 30px;
+  border: 1px solid #e3e9ef;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.05);
+}
+.brows-company:hover {
+  border-left: 4px solid #34a39b;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+.brows-company-location,
+.brows-company-name,
+.brows-company-position {
+  margin-top: 1.4em;
+}
+.brows-company .brows-company-pic {
+  display: table;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 1px;
+}
+.brows-company .brows-company-pic img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+.brows-company .brows-company-location p,
+.brows-company h4 {
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.brows-company h4 {
+  color: #35434E;
+  font-size: 22px;
+  margin-top: 0;
+}
+.brows-company span.brows-company-tagline {
+  display: block;
+  color: #636d75;
+}
+.brows-company .brows-company-location p {
+  color: #636d75;
+  font-size: 16px;
+}
+.brows-company .brows-company-position p {
+  text-align: right;
+  color: #11b719;
 }
