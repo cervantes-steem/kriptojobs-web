@@ -575,15 +575,67 @@
 					</form>
 					<div class="buttons-habilidades col-md-12">
 						<button class="clone-habilidades pull-left btn btn-success">clone</button>
-						<button class="remove-habilidades pull-right btn btn-danger">remove</button>
+						<!-- <button class="remove-habilidades pull-right btn btn-danger">remove</button> --> <!-- Se comenta este botón ya que aquí no se puede eliminar y quedarse sin campo idioma -->
 					</div>
 				</div> <!-- Fin elemento que se clona --> 
-				<div class="results-habilidades"></div> <!-- Aqui se muestra el elemento clonado--> 
+				<div class="results-habilidades"></div> <!-- Aqui se muestra el elemento clonado-->
 				
 
 				
 			</div>
 		</div>
+
+        <!-- INICIO. Idiomas clonar -->
+        <div class="idiomas"></div>
+        <!-- FIN. Idiomas clonar -->
 		
 	</div>
 </section>
+
+<!-- Jquery Core Js -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script>
+    let contador = 0;
+    $("body").on("click", ".clone-habilidades", function(e){
+        //alert(contador);
+        contador = contador + 1;
+
+        let div_idiomas;
+        div_idiomas = '<div id="idioma'+contador+'" class="row wrapper-habilidades">\n' +
+            '<div class="container">\n' +
+            '<div class="row section">\n' +
+            '<div class="col-md-12 titulo-resumen">\n' +
+            '<h3>Idiomas</h3>\n' +
+            '</div>\n' +
+            '</div>\n' +
+            '<div class="row element-habilidades margin-botton">\n' +
+            '<form class=" form-horizontal">\n' +
+            '<div class="form-group"> \n' +
+            '<div class="col-md-12 margin-botton">\n' +
+            '<input id="habilidades'+contador+'" type="text" class="form-control" name="habilidades" placeholder="habilidades, por ejemplo: Git">  <!-- Este Id debe ser unico --> \n' +
+            '</div>\n' +
+            '<div class="col-md-12 margin-botton">\n' +
+            '<div class="input-group col-md-2">\n' +
+            '<span class="input-group-addon"><i class="fas fa-language"></i></span>\n' +
+            '<input id="porcentaje-habilidades'+contador+'" type="text" class="form-control " name="porcentaje-habilidades" placeholder="85 %">\n' +
+            '</div>\n' +
+            '</div>\n' +
+            '</div>\n' +
+            '</form>\n' +
+            '<div class="buttons-habilidades col-md-12">\n' +
+            '<button class="clone-habilidades pull-left btn btn-success">clone</button>\n' +
+            '<button class="remove-habilidades pull-right btn btn-danger">remove</button>\n' +
+            '</div>\n' +
+            '</div> <!-- Fin elemento que se clona --> \n' +
+            '<div class="results-habilidades"></div> <!-- Aqui se muestra el elemento clonado--> \n' +
+            '</div>\n' +
+            '</div>';
+
+        $(".idiomas").append(div_idiomas); //Consultado (08-2018) en: https://stackoverflow.com/questions/22645379/appending-a-div-multiple-times-in-jquery-without-cloning
+    });
+
+    $("body").on("click", ".remove-habilidades", function(e){
+        $('#idioma'+contador).remove(); //Consultado (08-2018) en: https://api.jquery.com/remove/
+        contador = contador - 1;
+    });
+</script>
