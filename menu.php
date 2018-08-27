@@ -33,7 +33,7 @@
           <ul class="dropdown-menu">
             <li><a href="perfil-freelancer.php">Perfil Freelancer</a></li>
             <li><a href="perfil-freelancer-carga.php">Cargar Perfil</a></li>
-            <li><a href="#">Busqueda Freelancer</a></li>
+            <li><a href="b-freelancer.php">Busqueda Freelancer</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
           </ul>

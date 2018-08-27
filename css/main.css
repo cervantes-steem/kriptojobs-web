@@ -11038,6 +11038,14 @@ html body .cl-white {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+#b-freelancer {
+  background: #f4f5fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#b-freelancer .freelance-container {
+  cursor: auto;
+}
 /* Freelancer Container 
 *
 **
