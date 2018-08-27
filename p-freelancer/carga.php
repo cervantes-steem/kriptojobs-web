@@ -550,7 +550,7 @@
 			<div class="container">
 				<div class="row section">
 					<div class="col-md-12 titulo-resumen">
-						<h3>Idiomas</h3>
+						<h3>Skills</h3>
 					</div>
 				</div>
 				
@@ -564,7 +564,7 @@
 							<div class="col-md-12 margin-botton">
 								<!-- Este Id debe ser unico --> 
 									<div class="input-group col-md-2">
-									<span class="input-group-addon"><i class="fas fa-language"></i></span>
+									<span class="input-group-addon"><i class="fas fa-percentage"></i></span>
 									<input id="porcentaje-habilidades" type="text" class="form-control " name="porcentaje-habilidades" placeholder="85 %">
 								</div>
 								
@@ -575,7 +575,7 @@
 					</form>
 					<div class="buttons-habilidades col-md-12">
 						<button class="clone-habilidades pull-left btn btn-success">clone</button>
-						<!-- <button class="remove-habilidades pull-right btn btn-danger">remove</button> --> <!-- Se comenta este botón ya que aquí no se puede eliminar y quedarse sin campo idioma -->
+						<button class="remove-habilidades pull-right btn btn-danger">remove</button>
 					</div>
 				</div> <!-- Fin elemento que se clona --> 
 				<div class="results-habilidades"></div> <!-- Aqui se muestra el elemento clonado-->
@@ -585,9 +585,7 @@
 			</div>
 		</div>
 
-        <!-- INICIO. Idiomas clonar -->
-        <div class="idiomas"></div>
-        <!-- FIN. Idiomas clonar -->
+
 		
 	</div>
 </section>

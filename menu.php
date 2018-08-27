@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img  class="img-logo" src="images/logokriptojobs.png" alt=""></a>
+      <a class="navbar-brand" href="index.php"><img  class="img-logo" src="images/logokriptojobs.png" alt=""></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,14 +21,23 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
+            <li><a href="b-empleo.php">Empleos</a></li>
+            <li><a href="b-compania.php">Empresas</a></li>
             <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>
-         <li><a href="#">Freelancers  </a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Freelancers <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="perfil-freelancer.php">Perfil Freelancer</a></li>
+            <li><a href="perfil-freelancer-carga.php">Cargar Perfil</a></li>
+            <li><a href="#">Busqueda Freelancer</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
          <li><a href="#">¿Quiénes somos? </a></li>
 
        

@@ -10712,6 +10712,79 @@ a:hover {
   height: 20px;
   transform: skewY(60deg);
 }
+html body .bg-trans-info {
+  background: rgba(2, 182, 179, 0.12) !important;
+}
+html body .bg-trans-primary {
+  background: rgba(17, 148, 247, 0.12) !important;
+}
+html body .bg-trans-danger {
+  background: rgba(242, 17, 54, 0.12) !important;
+}
+html body .bg-trans-warning {
+  background: rgba(255, 152, 0, 0.12) !important;
+}
+html body .bg-trans-success {
+  background: rgba(15, 183, 107, 0.12) !important;
+}
+html body .bg-trans-purple {
+  background: rgba(197, 128, 255, 0.12) !important;
+}
+html body .bg-trans-default {
+  background: rgba(40, 52, 71, 0.12) !important;
+}
+html body .bg-info-br {
+  border: 1px solid #01b2ac!important;
+  background: rgba(2, 182, 179, 0.12) !important;
+}
+html body .bg-primary-br {
+  border: 1px solid #1194f7!important;
+  background: rgba(17, 148, 247, 0.12) !important;
+}
+html body .bg-danger-br {
+  border: 1px solid #f21136!important;
+  background: rgba(242, 17, 54, 0.12) !important;
+}
+html body .bg-warning-br {
+  border: 1px solid #ff9800;
+  background: rgba(255, 152, 0, 0.12) !important;
+}
+html body .bg-success-br {
+  border: 1px solid #11b719!important;
+  background: rgba(15, 183, 107, 0.12) !important;
+}
+html body .bg-purple-br {
+  border: 1px solid #c580ff!important;
+  background: rgba(197, 128, 255, 0.12) !important;
+}
+html body .bg-default-br {
+  border: 1px solid #283447!important;
+  background: rgba(40, 52, 71, 0.12) !important;
+}
+html body .cl-info {
+  color: #01b2ac!important;
+}
+html body .cl-primary {
+  color: #1194f7!important;
+}
+html body .cl-danger {
+  color: #f21136!important;
+}
+html body .cl-warning {
+  color: #ff9800!important;
+}
+html body .cl-success {
+  color: #11b719!important;
+}
+html body .cl-purple {
+  color: #c580ff!important;
+}
+html body .cl-default {
+  color: #283447!important;
+}
+html body .cl-white {
+  color: #fff!important;
+}
 /*Desarrolladores*/
 /* Menu Principal
 *
@@ -11481,4 +11554,119 @@ footer .footer-social li a i:hover {
 .brows-company .brows-company-position p {
   text-align: right;
   color: #11b719;
+}
+/* Buscador - Trabajo */
+.brows-job-list {
+  display: table;
+  width: 100%;
+  clear: both;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  transition: .4s;
+  border: 1px solid #eaeff5;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 rgba(88, 96, 109, 0.14);
+  -webkit-box-shadow: 0 0 10px 0 rgba(88, 96, 109, 0.14);
+  -moz-box-shadow: 0 0 10px 0 rgba(88, 96, 109, 0.14);
+}
+.brows-job-list:focus,
+.brows-job-list:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+}
+.brows-job-company-img {
+  width: 75px;
+  margin: 10px auto;
+  height: 75px;
+  display: inline-block;
+  background: #f4f5f7;
+  vertical-align: middle;
+  border-radius: 50%;
+  line-height: 75px;
+}
+.brows-job-company-img img {
+  margin: 0 auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+.brows-job-position h3 {
+  color: #5b6d77;
+  font-size: 20px;
+  padding: 0;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+span.job-num {
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  color: #8da2b3;
+  background: #f3f6fb;
+}
+.brows-job-position p span {
+  font-size: 12px;
+  color: #5a6f7c;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+.brows-job-position p .brows-job-sallery {
+  margin-right: 0;
+}
+.brows-job-position p .brows-job-sallery i {
+  margin-right: 10px;
+}
+.brows-job-location {
+  margin-top: 23px;
+}
+.brows-job-location p {
+  font-size: 18px;
+  color: #5a6f7c;
+}
+.brows-job-location p i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.brows-job-link {
+  margin-top: 22px;
+}
+.brows-job-position .job-type {
+  padding: 4px 12px;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 2px;
+  text-transform: capitalize;
+}
+.tg-themetag {
+  top: 7px;
+  left: -5px;
+  z-index: 2;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  position: absolute;
+  background: #ff526c;
+  padding: 5px 3px 3px 10px;
+  text-transform: uppercase;
+}
+.tg-featuretag:after {
+  top: 100%;
+  left: 0;
+  border-top: 5px solid #eb344f;
+  border-left: 5px solid transparent;
+}
+.tg-featuretag:before {
+  top: 0;
+  left: 100%;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 10px solid #ff526c;
+}
+.tg-featuretag:after,
+.tg-featuretag:before {
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
 }
