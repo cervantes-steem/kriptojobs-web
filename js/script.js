@@ -25,6 +25,33 @@ $('.center-slick').slick({
   ]
 });
 
+$('.relacionados-jobs').slick({
+  centerMode: false,
+  arrows:false,
+  centerPadding: '60px',
+  slidesToShow: 2,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    }
+  ]
+});
+
 $('#sandbox-container .time.date').datepicker({
     startView: 2,
     language: "es",
