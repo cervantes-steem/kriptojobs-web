@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title> -->
+    <title>KriptoJobs</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!--
+        Stylesheets and Preprocessors
+        ==============================
+
+        You can always bring in CSS files manually with `<link>` tags, or asynchronously
+        using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
+        of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+        By default, stylesheets from your `assets/styles` folder are included
+        here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
+        are supported. In production, your styles will be minified and concatenated into
+        a single file.
+
+        To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Change the order of your CSS files
+            + Import stylesheets from other directories
+            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+    -->
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/css/animated.css">
+    <link rel="stylesheet" href="/styles/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="/styles/css/bootstrap3-wysihtml5.css">
+    <link rel="stylesheet" href="/styles/css/julio.css">
+    <link rel="stylesheet" href="/styles/css/main.css">
+    <link rel="stylesheet" href="/styles/css/plantilla.css">
+    <link rel="stylesheet" href="/styles/css/plantilla.min.css">
+    <link rel="stylesheet" href="/styles/css/variables.css">
+    <!--STYLES END-->
+  </head>
+
+  <body>
+    <%- body %>
+
+
+
+    <!--
+        Client-side Templates
+        ========================
+
+        HTML templates are important prerequisites of modern, rich client applications.
+        To work their magic, frameworks like Backbone, Angular, Ember, and Knockout require
+        that you load these templates client-side.
+
+        By default, your Gruntfile is configured to automatically load and precompile
+        client-side JST templates in your `assets/templates` folder, then
+        include them here automatically (between TEMPLATES and TEMPLATES END).
+
+        To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Import templates from other directories
+            + Use a different template engine (handlebars, jade, dust, etc.)
+            + Internationalize your client-side templates using a server-side
+              stringfile before they're served.
+    -->
+
+    <!--TEMPLATES-->
+    
+    <!--TEMPLATES END-->
+
+
+    <!--
+
+      Client-side Javascript
+      ========================
+
+      You can always bring in JS files manually with `script` tags, or asynchronously
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
+      take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+      By default, files in your `assets/js` folder are included here
+      automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
+      CoffeeScript (.coffee) are supported. In production, your scripts will be minified
+      and concatenated into a single file.
+
+      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+      For example, here are a few things you could do:
+
+          + Change the order of your scripts
+          + Import scripts from other directories
+          + Use a different preprocessor, like TypeScript
+
+    -->
+
+    <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/dependencies/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-datepicker.min.js"></script>
+    <script src="/js/advanced.js"></script>
+    <script src="/js/bootstrap3-wysihtml5.all.min.js"></script>
+    <script src="/js/bootstrap3-wysihtml5.js"></script>
+    <script src="/js/slick/slick.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+
+  <footer>
+    <div class="row lg-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-4"> <img src="/images/logokriptojobs.png" class="img-responsive" style="height: 90px">
+
+          </div>
+          <div class="col-sm-8 col-md-8 ">
+            <div class="pull-right text-right ">
+              <ul class="menu-footer ">
+                <li> <a href="#">Home </a></li>
+                <li> <a href="#">Home </a></li>
+                <li> <a href="#">Home </a></li>
+                <li> <a href="#">Home </a></li>
+                <li> <a href="#">Home </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row md-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3> Sobre KriptoJobs</h3>
+            <p>Sed Ut Perspiciatis Unde Omnis Iste Natus Error Sit Voluptatem.</p>
+            <p>7860 North Park Place San Francisco, CA 94120</p>
+            <p><strong> Email:</strong> Support@Careerdesk</p>
+            <ul class=" footer-social">
+              <li><a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+              <li><a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+              <li><a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+              <li><a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+              <li><a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+              <li><a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>  Categorias Destacadas</h3>
+            <ul class="categoria">
+              <li> <a href="#">Categoria 1 </a></li>
+              <li> <a href="#">Categoria 2 </a></li>
+              <li> <a href="#">Categoria 3 </a></li>
+              <li> <a href="#">Categoria 4 </a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>  Enlaces Destacados</h3>
+            <ul class="categoria">
+              <li> <a href="#">Categoria 1 </a></li>
+              <li> <a href="#">Categoria 2 </a></li>
+              <li> <a href="#">Categoria 3 </a></li>
+              <li> <a href="#">Categoria 4 </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p> Todos los derechos reservados para KriptoJobs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
