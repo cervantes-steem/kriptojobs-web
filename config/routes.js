@@ -40,6 +40,26 @@ module.exports.routes = {
     controller: "Index",
     action: "index"
   },
+  '/perfilFreelancer': {
+    controller: "Index",
+    action: "perfilFreelancer"
+  },
+  '/perfilFreelancerCarga': {
+    controller: "Index",
+    action: "perfilFreelancerCarga"
+  },
+  '/busquedaFreelancer': {
+    controller: "Index",
+    action: "busquedaFreelancer"
+  },
+  '/busquedaEmpleo': {
+    controller: "Index",
+    action: "busquedaEmpleo"
+  },
+  '/solicitudEmpleo': {
+    controller: "Index",
+    action: "solicitudEmpleo"
+  },
 
   /***************************************************************************
   *                                                                          *
